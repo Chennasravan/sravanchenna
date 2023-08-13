@@ -1,0 +1,27 @@
+.col-m-4{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.img-text{
+    align-items: center;
+}
+.testimonal{
+    background-color: aliceblue;
+   margin-top: 60px;
+}
+
+.test-test{
+    font-size: 15px;
+}
+.d-block{
+    height: 170px;
+    width: 300px;
+}
+.testo{
+    display: flex;
+    gap: 7rem;
+}
+.Testimonl{
+    padding-top: 100px;
+}

@@ -1,0 +1,22 @@
+.floatingdiv{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 28px 0px 0px;
+    align-items: center;
+    box-shadow: var(--boxShadow);
+    height: 4.5rem;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.floatingdiv>:nth-child(1){
+    transform: scale(0.5);
+    font-weight: 100px;   
+}
+
+.floatingdiv>span{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}

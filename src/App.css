@@ -6,7 +6,7 @@
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(238 210 255);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 50%);
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
@@ -18,6 +18,72 @@
 }
 
 
-  
+.button{
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  background: linear-gradient(180deg,#F5C32C,#FCA61F);
+  box-shadow: 0px 20px 24px 3px rgba(252, 166, 31, 0.45);
+}  
 
-  
+.dark-theme{
+  background-color: black;
+  --liColor : white;
+  --intro : white;
+  --mover:23px;
+
+}
+.light-theme {
+  background-color: white;
+  --mover: -2px;
+}
+.n-wrapper{
+  color: var(--liColor);
+}
+.i-name>:nth-child(1),.i-left,
+i-name>:nth-child(2),.Awesome,.cards,.exp1>:nth-child(2),.text,.contact_form,.footer-copyright,.Testimonl>:nth-child(1),.contact>:nth-child(1),.Projects>:nth-child(1){
+  color: var(--intro);
+}
+
+.toogle-button{
+  display: flex;
+    justify-content: space-between;
+    border: 4px solid var(--orange);
+    width: 2.5rem;
+    border-radius: 1rem;
+    position: relative;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.toogle-button>*{
+  width: 1rem;
+    height: 1rem;
+    color: var(--orange)
+}
+
+.tog-button{
+  border-radius: 100%;
+    background: var(--orange);
+    position: absolute;
+    left: var(--mover);
+    top: -4px;
+}
+iframe {
+  display: none;
+}
+
+@media screen and (max-width:480px) {
+  .Intro {
+    flex-direction: column;
+  }
+
+  .i-right {
+    transform: scale(0.5);
+  }
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}

@@ -1,0 +1,47 @@
+.servicesfloat{
+    height: 13rem;
+    width: 10rem;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    border-style: solid;
+    border-color: var(--orangeCard);
+    border-width: 6px;
+    border-radius: 20px;
+    box-shadow: var(--boxShadow);
+    padding: 0px 26px 2rem 26px;
+}
+
+.floatbutton{
+    background: #FFFFFF;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08); 
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290FD;
+}
+
+.floatbutton:hover{
+    cursor: pointer;
+}
+
+.servicesfloat>:nth-child(1){
+    width: 100px;
+    height: 80px;
+}
+
+.servicesfloat>:nth-child(3) {
+   color: var(--gray);
+   font-size: 16px;
+}
+
+.servicesfloat>:nth-child(1) {
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}
+@media screen and (max-width:480px){
+    
+}
